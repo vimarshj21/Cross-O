@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_margin="4dp"
+            android:drawablePadding="0dp"
+            android:onClick="buClick"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text=""
+            android:backgroundTint="#4A4FD2"
+            app:iconPadding="0dp" />
+
+        <Button
+            android:onClick="buClick"
+            android:layout_margin="4dp"
+
+            android:id="@+id/btn2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            app:backgroundTint="#4A4FD2"
+            android:text="" />
+
+        <Button
+            android:onClick="buClick"
+            android:layout_margin="4dp"
+
+            android:id="@+id/btn3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            app:backgroundTint="#4A4FD2"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:onClick="buClick"
+            android:layout_margin="4dp"
+
+            android:id="@+id/btn4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            app:backgroundTint="#4A4FD2"
+            android:text="" />
+
+        <Button
+            android:onClick="buClick"
+            android:layout_margin="4dp"
+
+            android:id="@+id/btn5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            app:backgroundTint="#4A4FD2"
+            android:text="" />
+
+        <Button
+            android:onClick="buClick"
+            android:layout_margin="4dp"
+
+            android:id="@+id/btn6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            app:backgroundTint="#4A4FD2"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:onClick="buClick"
+            android:layout_margin="4dp"
+
+            android:id="@+id/btn7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            app:backgroundTint="#4A4FD2"
+            android:text="" />
+
+        <Button
+            android:onClick="buClick"
+            android:layout_margin="4dp"
+
+            android:id="@+id/btn8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            app:backgroundTint="#4A4FD2"
+            android:text="" />
+
+        <Button
+            android:onClick="buClick"
+            android:layout_margin="4dp"
+            android:id="@+id/btn9"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            app:backgroundTint="#4A4FD2"
+            android:text="" />
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_marginTop="60dp"
+        android:gravity="center|center_vertical"
+        android:layout_height="100dp"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/playAgainBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="playAgain"
+            android:text="PLAY AGAIN"
+            app:backgroundTint="#C18E09" />
+    </RelativeLayout>
+
+</TableLayout>
